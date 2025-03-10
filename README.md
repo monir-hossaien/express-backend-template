@@ -47,4 +47,68 @@ The **Doctor Finder Website** is a comprehensive platform where patients can sea
 - **Cloudinary** account (for image uploads) *(optional)*
 - **SendGrid** or **Twilio** account *(for email/SMS notifications)*
 
+---
+Install Dependencies
+Install the backend and frontend dependencies:
+
+
+npm install
+
+Configure Environment Variables
+Create a .env file in the backend directory and add your environment variables:
+
+env
+Copy
+Edit
+PORT=5000
+---
+MONGO_URI=your_mongo_database_connection_string
+JWT_SECRET=your_jwt_secret
+CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+SENDGRID_API_KEY=your_sendgrid_api_key
+---
+Run the Project
+Start Backend Server
+
+npm run server
+Start Frontend (React App)
+Navigate to the client folder and run:
+
+
+cd client
+npm start
+---
+📄 Usage
+For Patients:
+Register and login to create an account.
+Search doctors by filtering options such as specialization, location, and ratings.
+Book appointments based on available slots.
+Leave reviews and ratings after consultation.
+
+---
+For Doctors:
+Create and manage your profile with details like specialization, experience, and consultation fees.
+Set available time slots and manage bookings.
+---
+For Admins:
+Approve or reject doctor profiles.
+Manage users (patients and doctors).
+Monitor appointments and reviews.
+---
+📝 License
+This project is licensed under the MIT License - see the LICENSE file for more details.
+
+👨‍💻 Contributors
+Monir Hossain
+LinkedIn | GitHub
+📸 Screenshots
+
+🖋️ Acknowledgements
+MERN Stack for full-stack development.
+MongoDB for database management.
+Cloudinary for file uploads (optional).
+SendGrid / Twilio for notifications.
+
 
