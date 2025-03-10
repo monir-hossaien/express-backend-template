@@ -70,8 +70,6 @@ npm run server
 ```
 
 ## 🚀 Start Frontend (React App):
-## Navigate to the client folder and run:
-
 ```
 cd client
 npm start
